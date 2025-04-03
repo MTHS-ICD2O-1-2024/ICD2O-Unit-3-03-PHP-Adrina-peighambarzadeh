@@ -17,7 +17,7 @@
   <title>Volume of sphere, PHP</title>
 </head>
 
-body>
+<body>
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
@@ -27,7 +27,7 @@ body>
   </header>
   <main class="mdl-layout__content">
     <div class="right-image">
-      <img src="./images/income_tax.jpg" alt="sphere" width="300" />
+      <img src="./images/Screenshot 2025-04-02 12.44.35.png" alt="sphere" width="300" />
     </div>
     <div class="page-content-php">
       <div id="employment-info">
@@ -36,10 +36,10 @@ body>
         $radiusOfSphere = $_GET["radius-of-sphere"];
 
         // process
-        $volumeOfSphere = (4 / 3) * M_PI * ($radiusOfsphere ** 3);
+        $volumeOfSphere = (4 / 3) * M_PI * ($radiusOfSphere ** 3);
 
         // output
-        echo "Volume is: " . (round($volumeOfsphere, 2)) . "mm";
+        echo "Volume is: " . (round($volumeOfSphere, 2)) . "mm";
         ?>
       </div>
     </div>

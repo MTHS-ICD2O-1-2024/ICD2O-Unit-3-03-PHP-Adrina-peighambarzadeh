@@ -35,7 +35,7 @@
       </div>
       <form action="answer.php" method="GET">
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type=text pattern="-?[0-9]*(\.[0-9]+)?" id="radius-of-sphere">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="radius-of-sphere">
           <label class="mdl-textfield__label" for="hours-worked">radius of sphere (mm)</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
